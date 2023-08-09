@@ -1,0 +1,115 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+
+    height: 100vh;
+    background: linear-gradient(135deg ,black , rgb(3, 3, 94) , purple);
+    /* background: linear-gradient(rgb(0,0,0,0.5) , rgb(0,0,0,0.5)) , url(./back.jpg); */
+    background-position: center;
+    background-size: cover;
+    color: white;
+    overflow: hidden;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+}
+
+
+#logo{
+
+    background: linear-gradient(rgba(0, 0, 0, 0.437) , rgba(64, 103, 103, 0.552));
+    height: fit-content;
+}
+
+#cross{
+
+    position: absolute;
+    right: 20%;
+    top: 30%;
+}
+
+#cross i {
+
+    font-size: 400px;
+    background-image: linear-gradient(45deg, rgba(217, 1, 255, 0.238), rgba(255, 255, 255, 0.605));
+      -webkit-background-clip: text; /* Apply gradient to text */
+      background-clip: text;
+      color: transparent;
+    
+}
+
+.custom-spin {
+    animation: custom-spin 4s infinite linear;
+  }
+
+  @keyframes custom-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+
+img{
+
+    width: 80px;
+    height: 60px;
+    margin-left: 100px;
+    margin-top: 20px;
+    
+}
+
+#inner{
+
+    display: flex;
+    margin-top: 10%;
+    margin-left: 100px;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+h1{
+
+    font-size: 60px;
+}
+h1 span{
+
+    background-image: linear-gradient(45deg, rgb(255, 1, 255), rgb(255, 255, 255));
+      -webkit-background-clip: text; /* Apply gradient to text */
+      background-clip: text;
+      color: transparent;
+      font-size: 4rem;
+      font-weight: bold;
+      text-align: center;
+}
+
+#time {
+
+    display: flex;
+    gap: 20px;
+
+}
+#time p{
+
+    font-size: 3rem;
+    font-weight: bold;    
+}
+
+button{
+
+    width: 8%;
+    height: 40px;
+    background-color: transparent;
+    outline: none;
+    border-radius: 2px;
+    border: 2px solid purple;
+    color: white;
+}
+
+button:hover{
+
+    background-color: purple;
+
+}
